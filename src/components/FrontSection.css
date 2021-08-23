@@ -1,10 +1,5 @@
-img {
-  margin: auto;
-  height: 600px;
-  padding: 10px 0px;
-}
-
 .front-container {
+  background-image: url("../images/AdobeStock_285705907.jpeg");
   height: 100vh;
   width: 100%;
   display: flex;
@@ -16,7 +11,7 @@ img {
 
 .front-container > h1 {
   color: rgb(27, 67, 50);
-  font-size: 100px;
+  font-size: 80px;
   margin-top: -100px;
 }
 

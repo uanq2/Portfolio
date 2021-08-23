@@ -3,17 +3,23 @@ import CardItem from './CardItem';
 import './Cards.css';
 
 function Cards() {
+    function handleClick(event) {
+        console.log('Clicked')
+        console.log(event)
+        window.open('https://www.google.com')
+    }
     return (
         <div className='cards'>
             <h1>Web Development</h1>
             <div className="cards_container">
                 <div className="cards_wrapper">
                     <ul className="cards_items">
-                        <CardItem
+                        <div onClick={handleClick(this)}><CardItem
                             src='images/Vibe_Check.png'
                             text='Music Generator App'
-                            Link='https://project-one-group-three.github.io/vibe-check/' target='_blank'
+                            href='https://project-one-group-three.github.io/vibe-check/' target='_blank'
                         />
+                        </div>
                         <CardItem
                             src='images/WeatherDash.png'
                             text='Weather Forecast in any city App'
