@@ -7,7 +7,7 @@ function FrontSection() {
         <div className='front-container'>
 
             <h1>THANK YOU FOR VISITING!</h1>
-            <p>Let's connect to create amazing projects</p>
+            <h2>Let's connect to create amazing projects</h2>
         </div >
     )
 }
