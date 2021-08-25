@@ -50,11 +50,6 @@ h1 {
   overflow: hidden;
 }
 
-.fade-img {
-  animation-name: fade-img;
-  animation-duration: 2s;
-}
-
 .cards_item_img {
   position: absolute;
   top: 0;

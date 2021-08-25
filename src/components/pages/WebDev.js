@@ -1,6 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import WebCards from '../WebCards';
 
-export default function WebDev() {
-    return <h1 className='web-dev'>WEB DEVELOPMENT</h1>;
+function WebDev() {
+    return (
+        <>
+            <WebCards />
+        </>
+    );
 }
+
+export default WebDev

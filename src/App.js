@@ -8,6 +8,7 @@ import Design from './components/pages/Design';
 import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
 import Footer from './components/Footer'
+import AboutMe from './components/pages/AboutMe';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
+          <Route path='/about-me' component={AboutMe} />
           <Route path='/webDev' component={WebDev} />
           <Route path='/design' component={Design} />
           <Route path='/resume' component={Resume} />

@@ -1,5 +1,5 @@
 .front-container {
-  background-image: url("../images/AdobeStock_285705907.jpeg");
+  background-image: url("/src/assets/images/AdobeStock_285705907.jpeg");
   height: 100vh;
   width: 100%;
   display: flex;

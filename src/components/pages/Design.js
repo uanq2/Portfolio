@@ -1,6 +1,13 @@
 import React from 'react';
 import '../../App.css';
+import DesignCards from '../DesignCards';
 
-export default function Design() {
-    return <h1 className='graphic-design'>GRAPHIC DESIGN</h1>;
+function Design() {
+    return (
+        <>
+            <DesignCards />
+        </>
+    );
 }
+
+export default Design
