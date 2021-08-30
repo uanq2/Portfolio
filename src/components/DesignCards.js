@@ -3,11 +3,7 @@ import CardItem from './CardItem';
 import './Cards.css';
 
 function DesignCards() {
-    function handleClick(event) {
-        console.log('Clicked')
-        console.log(event)
-        window.open('https://www.google.com')
-    }
+
     return (
         <div className='cards'>
             <h1>GRAPHIC DESIGN</h1>
@@ -16,18 +12,39 @@ function DesignCards() {
                     <ul className="cards_items">
                         <CardItem
                             src='/images/RaffaeloMockUp.jpg'
-                            text='Hotel Brochure'
-                            Link='https://project-one-group-three.github.io/vibe-check/' target='_blank'
+                            text='Trifold Hotel Brochure'
+                            href='https://www.behance.net/gallery/31876307/Hotel-Brochure' target='_blank'
                         />
                         <CardItem
-                            src='/images/Postcards.jpg'
-                            text='Postcards 5 Senses Design'
-                            href='https://project-one-group-three.github.io/vibe-check/' target='_blank'
+                            src='/images/MockUp_4.jpg'
+                            text='Four Fold LED Lighting Company Brochure'
+                            href='https://www.behance.net/gallery/31876403/Brochure-for-LED-Lighting-Services' target='_blank'
                         />
                         <CardItem
                             src='/images/Invitation.jpg'
-                            text='Private Event Invitation to showcase new establishment'
-                            href='https://project-one-group-three.github.io/vibe-check/' target='_blank'
+                            text='Private Event Invitation'
+                            href='https://www.behance.net/gallery/61230067/Design-Work-at-Finer-Line' target='_blank'
+                        />
+                    </ul>
+                </div>
+            </div>
+            <div className="cards_container">
+                <div className="cards_wrapper">
+                    <ul className="cards_items">
+                        <CardItem
+                            src='/images/Christmas.jpg'
+                            text='Holiday Postcard'
+                            href='https://www.behance.net/gallery/61230067/Design-Work-at-Finer-Line' target='_blank'
+                        />
+                        <CardItem
+                            src='/images/Postcards.jpg'
+                            text='Promotional Cards'
+                            href='https://www.behance.net/gallery/61230067/Design-Work-at-Finer-Line' target='_blank'
+                        />
+                        <CardItem
+                            src='/images/WorldCup.jpg'
+                            text='World Cup Match Stats Tracker'
+                            href='https://www.behance.net/gallery/31876775/Matches-score-tracking-sheet' target='_blank'
                         />
                     </ul>
                 </div>

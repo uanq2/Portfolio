@@ -2,8 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function CardItem(props) {
+    function handleClick(event) {
+        var card = document.querySelectorAll(".card_links");
+        console.log(event);
+        console.log(props.href);
+        window.open(props.href, "_blank");
+    }
+
     return (
-        <>
+        <div className="card_links" onClick={handleClick}>
             <li className="cards_item">
                 <Link className="cards_item_link" to={props.path}>
                     <figure className="cards_item_pic-wrap" data-category={props.label}>
@@ -16,8 +23,7 @@ function CardItem(props) {
                     </div>
                 </Link>
             </li>
-
-        </>
+        </div>
     )
 }
 

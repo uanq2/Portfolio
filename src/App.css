@@ -14,17 +14,24 @@
   height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 h1 {
-  padding: 50px;
+  padding: 10px;
 }
 
 p {
   padding: 50px;
   margin: 50px;
-  font-size: 2rem;
+  font-size: 1.5rem;
   background-color: rgb(183, 228, 199);
   border-radius: 10px;
+}
+
+.avatar {
+  display: block;
+  margin: auto;
+  height: 450px;
+  padding-top: 20px;
 }

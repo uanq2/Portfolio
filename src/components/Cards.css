@@ -22,15 +22,12 @@ h1 {
   margin: 50px 0 45px;
 }
 
-.cards_items {
-  margin-bottom: 24px;
-}
-
 .cards_item {
   display: flex;
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  width: 300px;
 }
 
 .cards_item_link {
@@ -70,24 +67,21 @@ h1 {
 }
 
 .cards_item_info {
-  padding: 20px 30px 30px;
+  padding: 20px 30px 20px;
 }
 
 .cards_item_text {
   color: rgb(27, 67, 50);
   font-size: 18px;
   line-height: 24px;
-}
-
-@media only screen and (min-width: 1200px) {
-  .content_blog_container {
-    width: 84%;
-  }
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 1024px) {
   .cards_items {
     display: flex;
+    margin-bottom: 2rem;
   }
 }
 

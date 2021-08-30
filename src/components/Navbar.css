@@ -2,7 +2,6 @@
   background: rgb(27, 67, 50);
   height: 80px;
   display: flex;
-  justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
@@ -12,15 +11,12 @@
 
 .navbar-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 80px;
   max-width: 1500px;
 }
 
 .navbar-logo {
   color: rgb(183, 228, 199);
-  justify-self: start;
   margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
@@ -36,8 +32,6 @@
 
 .nav-menu {
   display: flex;
-  text-align: center;
-  justify-content: end;
   margin-right: 2rem;
   list-style: none;
 }
@@ -70,6 +64,15 @@
 
 .menu-icon {
   display: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(183, 228, 199);
+}
+
+a:hover {
+  color: rgb(64, 145, 108);
 }
 
 @media screen and (max-width: 960px) {

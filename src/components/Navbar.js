@@ -34,9 +34,9 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/resume' className='nav-links' onClick={closeHmbgrMenu}>
-                                Resume
-                            </Link>
+                            <div className='nav-links' onClick={closeHmbgrMenu}>
+                                <a href="https://docs.google.com/document/d/1egkXPbDBuTSw8L5plZzGRO4qeZXK8kAggp0Dhzo9gwg" target="_blank">Resume</a>
+                            </div>
                         </li>
                         <li className='nav-item'>
                             <Link to='/contact' className='nav-links' onClick={closeHmbgrMenu}>
