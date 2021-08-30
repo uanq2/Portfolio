@@ -1,6 +1,17 @@
 import React from 'react';
-import '../../App.css';
+import '../Contact.css';
+
 
 export default function Contact() {
-    return <h1 className='contact-me'>CONTACT ME</h1>;
+    return <>
+        <div className="form">
+            <h1>CONTACT ME</h1>
+            <form>
+                <input name="name" type="text" className="feedback-input" placeholder="Name" />
+                <input name="email" type="text" className="feedback-input" placeholder="Email" />
+                <textarea name="text" className="feedback-input" placeholder="Comment"></textarea>
+                <input type="submit" value="SUBMIT" />
+            </form>
+        </div>
+    </>
 }
