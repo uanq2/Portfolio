@@ -11,7 +11,7 @@ function DesignCards() {
                 <div className="cards_wrapper">
                     <ul className="cards_items">
                         <CardItem
-                            src='/images/RaffaeloMockUp.jpg'
+                            src=''
                             text='Trifold Hotel Brochure'
                             href='https://www.behance.net/gallery/31876307/Hotel-Brochure' target='_blank'
                         />
