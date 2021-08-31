@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/uanq2/portfolio/static/css/main.49261f96.chunk.css",
+    "main.js": "/uanq2/portfolio/static/js/main.cc5e2808.chunk.js",
+    "main.js.map": "/uanq2/portfolio/static/js/main.cc5e2808.chunk.js.map",
+    "runtime-main.js": "/uanq2/portfolio/static/js/runtime-main.97c0b3bd.js",
+    "runtime-main.js.map": "/uanq2/portfolio/static/js/runtime-main.97c0b3bd.js.map",
+    "static/js/2.5186b498.chunk.js": "/uanq2/portfolio/static/js/2.5186b498.chunk.js",
+    "static/js/2.5186b498.chunk.js.map": "/uanq2/portfolio/static/js/2.5186b498.chunk.js.map",
+    "index.html": "/uanq2/portfolio/index.html",
+    "static/css/main.49261f96.chunk.css.map": "/uanq2/portfolio/static/css/main.49261f96.chunk.css.map",
+    "static/js/2.5186b498.chunk.js.LICENSE.txt": "/uanq2/portfolio/static/js/2.5186b498.chunk.js.LICENSE.txt",
+    "static/media/FrontSection.css": "/uanq2/portfolio/static/media/AdobeStock_285705907.90769be5.jpeg",
+    "static/media/Avatar.21530ab1.png": "/uanq2/portfolio/static/media/Avatar.21530ab1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97c0b3bd.js",
+    "static/js/2.5186b498.chunk.js",
+    "static/css/main.49261f96.chunk.css",
+    "static/js/main.cc5e2808.chunk.js"
+  ]
+}
