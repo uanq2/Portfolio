@@ -26,6 +26,8 @@ Deployed application can be found in the link below:
 https://uanq2.github.io/portfolio/
 
 This is how the application looks like:
+![Screen Shot 2021-08-30 at 10 36 41 PM](https://user-images.githubusercontent.com/68913478/131610464-02ba053d-6fa2-401b-bb37-24c10cca2bbf.png)
+
 
 ## License
 
