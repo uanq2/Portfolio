@@ -16,10 +16,10 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/portfolio' exact component={Home} />
-          <Route path='/about-me' component={AboutMe} />
-          <Route path='/webDev' component={WebDev} />
-          <Route path='/design' component={Design} />
-          <Route path='/contact' component={Contact} />
+          <Route path='/portfolio/about-me' component={AboutMe} />
+          <Route path='/portfolio/webDev' component={WebDev} />
+          <Route path='/portfolio/design' component={Design} />
+          <Route path='/portfolio/contact' component={Contact} />
         </Switch>
         <Footer />
       </Router>

@@ -19,17 +19,17 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/about-me' className='nav-links' onClick={closeHmbgrMenu}>
+                            <Link to='/portfolio/about-me' className='nav-links' onClick={closeHmbgrMenu}>
                                 About Me
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/webDev' className='nav-links' onClick={closeHmbgrMenu}>
+                            <Link to='/portfolio/webDev' className='nav-links' onClick={closeHmbgrMenu}>
                                 Web Dev
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/design' className='nav-links' onClick={closeHmbgrMenu}>
+                            <Link to='/portfolio/design' className='nav-links' onClick={closeHmbgrMenu}>
                                 Graphic Design
                             </Link>
                         </li>
@@ -39,7 +39,7 @@ function Navbar() {
                             </div>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/contact' className='nav-links' onClick={closeHmbgrMenu}>
+                            <Link to='/portfolio/contact' className='nav-links' onClick={closeHmbgrMenu}>
                                 Contact Me
                             </Link>
                         </li>
