@@ -1,6 +1,12 @@
 import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css';
+import image1 from '../assets/images/Day_Scheduler.png';
+import image2 from '../assets/images/NoteTaker.png';
+import image3 from '../assets/images/Trivia_Game.png';
+import image4 from '../assets/images/VIbe_Check.png';
+import image5 from '../assets/images/WeatherDash.png';
+import image6 from '../assets/images/AtlasTravel.png';
 
 function WebCards() {
 
@@ -11,17 +17,17 @@ function WebCards() {
                 <div className="cards_wrapper">
                     <ul className="cards_items">
                         <CardItem
-                            src='./images/VIbe_Check.png'
+                            src={image4}
                             text='Music Generator App'
                             href='https://project-one-group-three.github.io/vibe-check/' target='_blank'
                         />
                         <CardItem
-                            src='/images/WeatherDash.png'
+                            src={image5}
                             text='Weather Forecast App'
                             href='https://uanq2.github.io/hw6-Weather_App/' target='_blank'
                         />
                         <CardItem
-                            src='images/Trivia_Game.png'
+                            src={image3}
                             text='Soccer World Cup Trivia'
                             href='https://uanq2.github.io/hmk4_Quiz/' target='_blank'
                         />
@@ -32,17 +38,17 @@ function WebCards() {
                 <div className="cards_wrapper">
                     <ul className="cards_items">
                         <CardItem
-                            src='/images/AtlasTravel.png'
+                            src={image6}
                             text='Travel Plans Organizer'
                             href='https://project-one-group-three.github.io/vibe-check/' target='_blank'
                         />
                         <CardItem
-                            src='/images/Day_Scheduler.png'
+                            src={image1}
                             text='Daily Task Organizer App'
                             href='https://uanq2.github.io/hmk5-Work-Day-Scheduler/' target='_blank'
                         />
                         <CardItem
-                            src='/images/NoteTaker.png'
+                            src={image2}
                             text='Digital Note Taker App'
                             href='https://un-note-taker.herokuapp.com/' target='_blank'
                         />
