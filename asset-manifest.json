@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/uanq2/portfolio/static/css/main.49261f96.chunk.css",
-    "main.js": "/uanq2/portfolio/static/js/main.cc5e2808.chunk.js",
-    "main.js.map": "/uanq2/portfolio/static/js/main.cc5e2808.chunk.js.map",
+    "main.js": "/uanq2/portfolio/static/js/main.4413fc60.chunk.js",
+    "main.js.map": "/uanq2/portfolio/static/js/main.4413fc60.chunk.js.map",
     "runtime-main.js": "/uanq2/portfolio/static/js/runtime-main.97c0b3bd.js",
     "runtime-main.js.map": "/uanq2/portfolio/static/js/runtime-main.97c0b3bd.js.map",
     "static/js/2.5186b498.chunk.js": "/uanq2/portfolio/static/js/2.5186b498.chunk.js",
@@ -11,12 +11,24 @@
     "static/css/main.49261f96.chunk.css.map": "/uanq2/portfolio/static/css/main.49261f96.chunk.css.map",
     "static/js/2.5186b498.chunk.js.LICENSE.txt": "/uanq2/portfolio/static/js/2.5186b498.chunk.js.LICENSE.txt",
     "static/media/FrontSection.css": "/uanq2/portfolio/static/media/AdobeStock_285705907.90769be5.jpeg",
-    "static/media/Avatar.21530ab1.png": "/uanq2/portfolio/static/media/Avatar.21530ab1.png"
+    "static/media/AtlasTravel.f496e815.png": "/uanq2/portfolio/static/media/AtlasTravel.f496e815.png",
+    "static/media/Avatar.21530ab1.png": "/uanq2/portfolio/static/media/Avatar.21530ab1.png",
+    "static/media/Christmas.16eef0be.jpg": "/uanq2/portfolio/static/media/Christmas.16eef0be.jpg",
+    "static/media/Day_Scheduler.91cf6121.png": "/uanq2/portfolio/static/media/Day_Scheduler.91cf6121.png",
+    "static/media/Invitation.001a276e.jpg": "/uanq2/portfolio/static/media/Invitation.001a276e.jpg",
+    "static/media/MockUp_4.3c293672.jpg": "/uanq2/portfolio/static/media/MockUp_4.3c293672.jpg",
+    "static/media/NoteTaker.1285e801.png": "/uanq2/portfolio/static/media/NoteTaker.1285e801.png",
+    "static/media/Postcards.406daf5d.jpg": "/uanq2/portfolio/static/media/Postcards.406daf5d.jpg",
+    "static/media/RaffaeloMockUp.0b1ab6f1.jpg": "/uanq2/portfolio/static/media/RaffaeloMockUp.0b1ab6f1.jpg",
+    "static/media/Trivia_Game.ccda8617.png": "/uanq2/portfolio/static/media/Trivia_Game.ccda8617.png",
+    "static/media/VIbe_Check.a06c122e.png": "/uanq2/portfolio/static/media/VIbe_Check.a06c122e.png",
+    "static/media/WeatherDash.f41866f9.png": "/uanq2/portfolio/static/media/WeatherDash.f41866f9.png",
+    "static/media/WorldCup.5a4e3491.jpg": "/uanq2/portfolio/static/media/WorldCup.5a4e3491.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.97c0b3bd.js",
     "static/js/2.5186b498.chunk.js",
     "static/css/main.49261f96.chunk.css",
-    "static/js/main.cc5e2808.chunk.js"
+    "static/js/main.4413fc60.chunk.js"
   ]
 }
