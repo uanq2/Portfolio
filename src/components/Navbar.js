@@ -11,7 +11,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+                    <Link to="/portfolio" className="navbar-logo">
                         URIEL A. NUNEZ
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
