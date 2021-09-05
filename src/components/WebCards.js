@@ -40,7 +40,7 @@ function WebCards() {
                         <CardItem
                             src={image6}
                             text='Travel Plans Organizer'
-                            href='https://project-one-group-three.github.io/vibe-check/' target='_blank'
+                            href='https://atlas-travel.herokuapp.com/' target='_blank'
                         />
                         <CardItem
                             src={image1}
