@@ -24,12 +24,12 @@ function WebCards() {
                         <CardItem
                             src={image5}
                             text='Weather Forecast App'
-                            href='https://uanq2.github.io/hw6-Weather_App/' target='_blank'
+                            href='https://uanq2.github.io/weather_app/' target='_blank'
                         />
                         <CardItem
                             src={image3}
                             text='Soccer World Cup Trivia'
-                            href='https://uanq2.github.io/hmk4_Quiz/' target='_blank'
+                            href='https://uanq2.github.io/trivia_quiz/' target='_blank'
                         />
                     </ul>
                 </div>
@@ -45,7 +45,7 @@ function WebCards() {
                         <CardItem
                             src={image1}
                             text='Daily Task Organizer App'
-                            href='https://uanq2.github.io/hmk5-Work-Day-Scheduler/' target='_blank'
+                            href='https://uanq2.github.io/work_day_scheduler/' target='_blank'
                         />
                         <CardItem
                             src={image2}
