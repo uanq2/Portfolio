@@ -1,9 +1,9 @@
+/* eslint-disable no-undef */
 import React from 'react'
 import { Link } from 'react-router-dom'
 
 function CardItem(props) {
     function handleClick(event) {
-        var card = document.querySelectorAll(".card_links");
         console.log(event);
         console.log(props.href);
         window.open(props.href, "_blank");
